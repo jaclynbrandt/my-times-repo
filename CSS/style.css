@@ -1,0 +1,28 @@
+nav {
+  display: inline-block;
+  align-items: center;
+  margin: 20px;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex-container;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+  align-items: center;
+
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+  text-align: left;
+}
+
+#item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
