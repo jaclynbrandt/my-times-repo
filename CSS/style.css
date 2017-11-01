@@ -1,18 +1,17 @@
 nav {
   display: inline-block;
   align-items: center;
-  margin: 20px;
-  justify-content: space-between;
+  justify-content: flex-end;
+  flex-grow: 1;
 }
 
 .header {
-  display: flex-container;
+  display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   color: MediumAquamarine;
   align-items: center;
-
 }
 
 .logo {
@@ -21,8 +20,35 @@ nav {
   text-align: left;
 }
 
-#item {
-  display: flex;
-  justify-content: space-between;
+.title {
+  display: inline-block;
   align-items: center;
+  text-align: left;
+  flex-grow: 5;
+  margin-left: 10px;
+}
+
+.column {
+  display: flex;
+  border-style: solid;
+  border-color: black;
+  flex-direction: column;
+}
+
+.column.large {
+  width: 630px;
+  flex-direction: column;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+.headline {
+  border-style: solid;
+  border-color: black;
 }
