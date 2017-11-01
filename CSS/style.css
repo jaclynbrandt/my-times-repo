@@ -29,23 +29,36 @@ nav {
 }
 
 .column {
-  display: flex;
+  display: inline-flex;
   border-style: solid;
   border-color: black;
   flex-direction: column;
+  justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-.column.large {
-  width: 630px;
+.large {
+  display: inline-flex;
   flex-direction: column;
+  justify-content: space-between;
+  width: 630px;
+  margin: auto;
 }
 
-.column.medium {
+.medium {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 300px;
+  margin: auto;
 }
 
-.column.small {
+.small {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 240px;
+  margin: auto;
 }
 
 .headline {
